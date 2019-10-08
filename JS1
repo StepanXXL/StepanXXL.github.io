@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+  <title>Стили</title>
+  <style>
+    p {
+      background-color: #fff;
+      margin: 20px auto;
+      font-family: Arial;
+      font-size: 2em;
+      text-transform: uppercase;
+      color: rgba(0, 168, 255, 0.5);
+      text-shadow: 8px 8px 0 rgba(255, 0, 180, 0.5);
+    }
+  </style>
+  <script>
+    function er() {
+
+      document.getElementById("inf1").innerHTML = "<p>а) " + "-1/x^2" + "</p>";
+      document.getElementById("inf2").innerHTML = "<p>б) " + "a/(b*c)" + "</p>";
+      document.getElementById("inf3").innerHTML = "<p>в) " + "a/b*c" + "</p>";
+      document.getElementById("inf4").innerHTML = "<p>г) " + "(a + b) / 2 "+"</p>";
+      document.getElementById("inf5").innerHTML = "<p>д) " + "5,42*(a+2b)/(2-a) "+"</p>";
+      document.getElementById("inf6").innerHTML = "<p>д) " + "(-b+sqrt(b^2-4ac))/(2a) "+"</p>";
+
+
+    }
+  </script>
+</head>
+
+<body>
+  <button onclick="er()">1.15</button>
+  <br>
+  <div id="inf1"></div>
+  <div id="inf2"></div>
+  <div id="inf3"></div>
+  <div id="inf4"></div>
+<div id="inf5"></div>
+<div id="inf6"></div>
+
+
+
+</body>
+
+</html>
